@@ -1,0 +1,17 @@
+.container-comp {
+  border: 1px solid #ccc;
+  width: 300px;
+  display: flex;
+}
+
+.container-comp .selected-item {
+  display: block;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container-comp .selected-item li {
+  padding: 10px;
+  background: #ccc;
+  margin: 10px;
+}
